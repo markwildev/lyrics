@@ -1,0 +1,41 @@
+h1,h2,h3,h4,h5,h6,span,p {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.text-limit--title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px;
+}
+.font-semibold {
+	font-weight: 400;
+}
+.text-line-through {
+	text-decoration-line: line-through; 
+}
+.text-white {
+	color: white;
+}
+.text-blue {
+	color: #3C1F69;
+}
+.bg-violet {
+	background-color: #3C1F69 !important;
+}
+.text-gray {
+	color: #5B5B5B;
+}
+.text-size--18 {
+	font-size: 18px;
+}
+.text-size--14 {
+	font-size: 14px;
+}
+.bg-white {
+	background-color: white !important;
+}
+.cart-max--height {
+	max-height: 250px;
+	overflow-y: scroll;
+}

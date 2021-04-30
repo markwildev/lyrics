@@ -1,0 +1,166 @@
+/* Responsive CSS Document */
+
+/*
+    Created on   : 29/05/2017.
+    Theme Name   : Right Flooring.
+    Description  : Right Flooring - Flooring and Tiling Services.
+    Version      : 1.0.
+    Author       : @TheMazine.
+    Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
+
+*/
+
+
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (max-width: 1199px) {
+  .bottom-banner ul li i {left:0;}
+  .our-project .single-project .text h4 a,.our-blog .single-blog .text h4 a,
+  .our-service .single-service .text h4 a {font-size: 25px;}
+  .theme-main-container.space-fix {margin: 0 -20px;}
+  .theme-main-container.space-fix .theme-col {padding: 0 20px;}
+  .blog-v2 .single-blog h4 a br,.faq-page .single-qus h5 br {display: none;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #mega-menu-holder>ul> li> a {margin: 0 10px;letter-spacing: 1px;}
+  .our-project .single-project .text {padding-left: 15px;padding-right: 15px;}
+  .client-slider .opacity p {width: 80%;}
+  .bottom-banner ul li i {font-size: 50px;}
+  .request-quote-section .quote-banner a {width: 220px;}
+  .our-project.project-v2 .single-project {min-height: 513px;}
+  .theme-main-container .theme-sidebar {width: 33%;}
+  .theme-main-container .theme-large-content {width: 67%;}
+  .shop-page .main-wrapper .shop-sidebar {width: 30%;}
+  .shop-page .main-wrapper .shop-large-side {width: 70%;}
+  .shop-page .all-product-wrapper .single-item h5 a {font-size: 18px;}
+  .shop-details .single-product-details .info a {margin-left: 120px;}
+  .faq-page .single-qus {padding-left: 15px;padding-right: 15px;}
+  .contact-address .single-branch ul li br {display: none;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+
+@media (max-width: 991px) {
+  .request-quote-section .text h3 br {display: none;}
+  header.theme-main-header .theme-main-menu .logo {position: absolute;left:0;top:10px;width: 50%;z-index: 999;}
+  .bg-transparent #mega-menu-holder>ul>li>a {padding-bottom: 0;}
+  header.theme-main-header.fixed #mega-menu-holder>ul>li>a,.height-fix #mega-menu-holder>ul>li>a {padding: 0 15px;}
+  .request-quote-section.home-one .text,.request-quote-section .quote-form,.client-slider .opacity p,
+  .theme-main-container .theme-large-content,.shop-page .main-wrapper .shop-large-side {width: 100%;}
+  .request-quote-section .quote-form {margin-top: 50px;}
+  .request-quote-section .quote-form form h4:before {height: 180px;top: -151px;left: -134px;-webkit-transform: rotate(-10deg);transform: rotate(-10deg);}
+  .theme-counter .opacity .text-center {padding: 50px 0;}
+  .inspiration-tab.m-fix {margin: 80px 0;}
+  footer .bottom-footer p,footer .bottom-footer ul {float:none;text-align: center;}
+  footer .bottom-footer ul li {float: none;display: inline-block;margin-top: 15px;}
+  .request-quote-section .quote-banner h6,.request-quote-section .quote-banner a {float:none;text-align: center;}
+  .request-quote-section .quote-banner h6 {margin: 0;}
+  .request-quote-section .quote-banner a {display: block;margin: 25px auto 0 auto;}
+  .inner-banner .opacity {padding-top: 200px;}
+  .theme-main-container .theme-large-content,.shop-page .main-wrapper .shop-large-side {margin-bottom: 80px;}
+  .request-quote-section p.m1 {width: 100%;}
+  header.theme-main-header.fixed .theme-main-menu {padding-top: 22px;}
+}
+/*(max-width: 991px)*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .client-slider .opacity {padding: 120px 0;}
+  .bottom-banner ul li i {display: none;}
+  .theme-main-container .theme-sidebar,.shop-page .main-wrapper .shop-sidebar {width: 50%;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+  .our-service .single-service img,.bottom-banner ul li,.request-quote-section .text,.theme-main-container .theme-sidebar,
+  .details-page .theme-large-content .project-info .details-panel,.about-us-page .theme-large-content #team-carousel,
+  .about-us-page .theme-large-content .inspiration-panel,.our-project.project-v5 .mix,.shop-page .main-wrapper .shop-sidebar {width: 100%;}
+  .request-quote-section .text h3 br,.request-quote-section .img-box,.inner-banner .opacity p br,.details-page .theme-large-content h2 br,
+  .details-page .theme-large-content .details-list h4 br,.blog-details-post .post .post-heading h4 br,#banner .tp-caption p br,#banner .tp-caption h1 br {display: none;}
+  .our-service .single-service .text h4 a {font-size: 25px;}
+  .our-service .single-service .text.style-one {padding-left: 10px;}
+  .client-slider .opacity {padding: 100px 0;}
+  .blog-details-post .post .post-heading ul li {width: 49%;}
+  .shop-details .single-product-details .info a {margin-left: 20px;}
+  .faq-page .single-qus {padding-left: 25px;padding-right: 25px;}
+  #banner .tp-caption h1 {font-size: 48px;line-height: 59px;}
+  #banner .tp-caption h5 {font-size: 18px;}
+}
+/*(max-width: 767px)*/
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .our-project .single-project .text h4 a, .our-blog .single-blog .text h4 a,
+  .our-project .single-project .image .opacity .title h4 {font-size: 20px;}
+  .our-project .single-project .text {padding-left: 12px;padding-right: 12px;}
+  .our-project.project-v5 .mix {width: 50%;}
+}
+
+@media (max-width: 650px) {
+  #success,#error {
+    width: 84%;
+    height: auto;
+    top: calc(50% - 50px);
+    left: 8%;
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .theme-title p br {display: none;}
+  .our-project .col-xs-6,.our-service .col-xs-6,.our-blog .col-xs-6,.faq-page .col-xs-6,
+  .shop-details .single-product-details .image,.shop-details .single-product-details .info {width: 100%;}
+  .shop-details .single-product-details .info {padding: 50px 0 0 0;}
+  .error-page {padding: 100px 0 150px 0;}
+}
+
+@media (max-width: 550px) {
+  .request-quote-section .quote-form form h4:before {left:-100px;top:0;height: 120px;-webkit-transform:none;transform:none;}
+  .request-quote-section .quote-form form {padding-left: 20px;padding-right: 20px;}
+  .bottom-banner ul li i {font-size: 45px;}
+}
+
+@media (max-width: 500px) {
+  .blog-details-post .post .page-indicator a.pager {float: none;display: block;margin-bottom: 15px;}
+  .blog-details-post .post .page-indicator .back-top {
+    position: static;
+    -webkit-transform:none;
+            transform:none;
+    margin-bottom: 20px;
+  }
+  .blog-details-post .comment-section .single-comment {margin-left: 0;}
+  .blog-details-post .comment-section .single-comment.reply-comment {padding-left: 30px;}
+  .blog-details-post .comment-section .single-comment .comment button,
+  .blog-details-post .comment-section .single-comment .comment span {float: none;}
+}
+
+@media (max-width: 480px) {
+  .inner-banner .opacity {padding-top: 170px;}
+  .inner-banner .opacity h2 {font-size: 50px;}
+}
+
+@media (max-width: 450px) {
+  .shop-page .all-product-wrapper .col-xs-6 {width: 100%;}
+}
+
+
+@media (max-width: 400px) {
+  .blog-details-post .post .post-heading ul li {width: 100%;}
+  .request-quote-section .quote-banner a,.error-page a {width: 220px;}
+  .theme-main-container .theme-sidebar .sidebar-list ul li a {font-size: 16px;padding-left: 15px;}
+  .details-page .theme-large-content .details-tab .panel-heading h6 a,.details-page .theme-large-content .details-tab .panel-body {padding-left: 15px;}
+}
+
+@media (max-width: 380px) {
+  .theme-counter .opacity .text-center h5 {font-size: 15px;margin-bottom: 12px;}
+  .theme-counter .opacity .text-center .number {font-size: 35px;}
+  .theme-counter .opacity .text-center {padding: 30px 0;}
+  .page-pagination ul li a {font-size: 20px;}
+  .page-pagination ul li {padding: 0 3px;}
+}

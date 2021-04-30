@@ -1,0 +1,83 @@
+ h1,h2,h3,h4,h5,h6,span,p {
+font-family: 'Quicksand', sans-serif;
+ }
+ .font-semibold {
+  font-weight: 600
+ }
+ .font-light {
+  font-weight: 500
+ }
+
+ .wizard > .steps > ul li + li::before
+ {
+ 	content: none !important;
+ }
+
+.pointer 
+{
+ cursor: pointer;
+}
+.image-upload > input
+{
+ display: none;
+}
+
+.image-upload img
+{
+  width: 80px;
+  cursor: pointer;
+}
+.logo-size {
+  height: 50px;width: auto;
+}
+.section {
+  margin-top: 190px !important;
+ }
+ .section-wrapper {
+  margin-top:90px !important;
+ }
+ .df-example::before {
+ 	font-size: 14px !important;
+}
+@media (min-width: 1200px){
+.content-components {
+    padding: 30px;
+    margin-right: 0px !important; 
+}
+}
+.font-small {
+	font-size: 13px;
+}
+.navbar-header {
+	height: 73px !important
+}
+.icon-size--search {
+	height: 20px;width: auto;
+}
+.bg-gray {
+	background-color: #2d3436 !important;
+}
+.text-gray {
+	color: #2d3436 !important;
+}
+.text-white {
+	color: white !important;
+}
+.bg-white {
+	background-color: white !important;
+}
+.font-size--14 {
+	font-size: 14px;
+}
+.navbar-hover:hover .icon-white--hover {
+	background-color: #0168fa !important;
+	color: white !important;
+}
+.navbar-hover--text:hover {
+	background-color: #0168fa !important;
+	color: white !important;
+}
+.font-size--amount {
+	font-size: 21px;
+}
+
