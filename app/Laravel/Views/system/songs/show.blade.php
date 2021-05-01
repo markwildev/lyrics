@@ -4,9 +4,9 @@
 <div class="content content-components section-wrapper mb-5">
       <div>
         <div class="d-flex justify-content-md-between mb-2">
-          <h4 id="section1" class="mb-3 mb-lg-0 mb-md-0 mb-xl-0">Song List</h4>
-          <a href="{{ route('system.song_list.create') }}" class="btn btn-dark mg-b-10 font-small">
-            <i data-feather="plus" class="mr-2"></i>Add Song
+          <h4 id="section1" class="mb-3 mb-lg-0 mb-md-0 mb-xl-0">Lyrics</h4>
+          <a href="{{ route('system.song_list.index') }}" class="btn btn-dark mg-b-10 font-small">
+            <i data-feather="" class="mr-2"></i>Back
       </a>
       {{-- <a href="{{ route('system.product.create') }}" class="btn btn-primary mg-b-10 font-small">
       <i data-feather="check-square" class="mr-2"></i>Add Product
@@ -34,31 +34,8 @@
        
        
         <div class="table-responsive">
-          <table class="table table-dark table-bordered mg-b-0">
-            <thead>
-            <tr>
-               <th scope="col">Title</th>
-              <th scope="col">Artist</th>
-              <th scope="col">Date Created</th>
-
-              <th scope="col">Action</th>      
-            </tr>
-            </thead>
-            <tbody>
-              @foreach ($songs as $song)
-              <tr>
-                <td>{{ strtoupper($song->title) }}</td>              
-                <td>{{ strtoupper($song->artist) }}</td>              
-                {{-- <td>{!! str_limit($song->lyrics,)  !!}</td>               --}}
-                <td>{{ date('M d, Y'),strtotime($song->created_at)}}</td>              
-                        
-                <td width="10%"> <a href="{{ route('system.song_list.show',[$song->id]) }}">View</a> | <a href="{{ route('system.song_list.edit',[$song->id]) }}">Edit</a> | <a href="{{ route('system.song_list.delete',[$song->id]) }}" id="delete">Delete</a> </td>   
-              </tr>
-           
-              @endforeach
-            </tbody>
-          </table>
-          </div><!-- table-responsive -->
+          {!! $song->lyrics !!}
+        </div><!-- table-responsive -->
    
           
           </div><!-- df-example -->

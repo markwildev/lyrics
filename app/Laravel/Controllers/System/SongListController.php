@@ -83,6 +83,11 @@ function __construct()
 			return redirect()->back();
 		}
 	}
+
+	public function show($id = " "){
+		$this->data['song'] = Song::find($id);
+		return view('system.songs.show',$this->data);
+	}
 public function destroy($id = " "){
 
 	try {

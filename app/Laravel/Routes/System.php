@@ -56,6 +56,7 @@ Route::group([
 			Route::post('create',['uses' => "SongListController@store"]);
 			Route::get('delete/{id?}',['as'=>"delete",'uses' => "SongListController@destroy"]);
 			Route::get('edit/{id?}',['as'=>"edit",'uses' => "SongListController@edit"]);
+			Route::get('show/{id?}',['as'=>"show",'uses' => "SongListController@show"]);
 			Route::post('edit/{id?}',['uses' => "SongListController@update"]);
 			
 		});
